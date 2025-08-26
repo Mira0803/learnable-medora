@@ -39,7 +39,7 @@ let doctorName;
 if (email && email.includes("@")) {
   adminName = email.split("@")[0];
 
-  document.getElementById("doctorName").textContent = "Dr." + doctorName;
+  document.getElementById("userName").textContent = "Dr." + doctorName;
 } else {
-  document.getElementById("doctorName").textContent = "Doctor Tylor";
+  document.getElementById("userName").textContent = "Doctor Tylor";
 }
